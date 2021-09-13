@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Image Slider</title>
+    <style>
+      h2 {
+        text-align: center;
+        font-size: 30px;
+      }
+      .container {
+        width: 50%;
+        margin: auto;
+        margin-top: 70px;
+        padding: 40px 0px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f1faee;
+        box-shadow: 10px 10px 5px 0px rgba(186, 186, 186, 0.75);
+      }
+      .container img {
+        border: 3px solid #006d77;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Simple Image Slider</h2>
+    <div class="container">
+      <img id="slider-img" src="images/pic-1.jpg" alt="" />
+    </div>
+    <!-- script  -->
+    <script src="js/slider.js"></script>
+  </body>
+</html>
